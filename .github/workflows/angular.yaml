@@ -99,7 +99,7 @@ jobs:
       - name: checkout gitops repo
         uses: actions/checkout@v4
         with:
-          repository: 'madhukamesh/argocd-app-gitops'
+          repository: 'madhukamesh/angular_new_gitops'
           ref: main
           token: ${{ secrets.ANGULAR_NEW }}
           path: gitops

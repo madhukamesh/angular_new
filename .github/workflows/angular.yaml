@@ -101,7 +101,7 @@ jobs:
         with:
           repository: 'madhukamesh/argocd-app-gitops'
           ref: main
-          token: ${{ secrets.GITOPS }}
+          token: ${{ secrets.ANGULAR_NEW }}
           path: gitops
 
       - name: Replace image tag with yq and push

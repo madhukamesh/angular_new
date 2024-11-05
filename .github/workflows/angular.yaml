@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      # Step 1: Checkout/download the repository code
+      # Step 1: Checkout/download the repository codes
       - name: Checkout code
         uses: actions/checkout@v4
         with:
